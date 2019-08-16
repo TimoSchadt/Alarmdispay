@@ -1,0 +1,20 @@
+Alarmdruck 1160047686 / Technische Hilfeleistung
+Einsatzanlass
+Meldebild 091 - Feuerwehreinsatz
+Bemerkung Ganz ganz ganz große Scheiße
+Stichwort F 3 Große Scheiße
+Meldender - / -
+Einsatzort
+Ort Breuberg [64747]
+Ortsteil Hainstadt
+Straße B 426 - Hainstadt > Landesgrenze
+EM (Stärke/AGT) zugeteilt alarmiert Wache ab EOrt an EOrt ab ZOrt an ZOrt ab Ende
+01_FW-HAIN 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-1-64 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-2-48 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-3-42 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-1-22 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-4-19 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+Eskalationsstufe
+gedruckt am 7.Dezember 2016 19:18
+-1-

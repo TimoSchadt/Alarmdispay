@@ -1,0 +1,113 @@
+Fri Sep 22 11:13:59 CEST 2017:	EventLog started
+Fri Sep 22 11:13:59 CEST 2017:	Read config
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'DarkenScreen' from config. Value is '0'
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'ResetTime' from config. Value is '10'
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'Mailadress' from config. Value is 'timoschadt@googlemail.com'
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'Password' from config. Value is 'PASSWORD'
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'Printername' from config. Value is 'NONE'
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'Senders' from config. Value is 'timoschadt@googlemail.com, leitstelle@odenwaldkreis.de'
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'HomeName' from config. Value is 'Jugendfeuerwehr Breuberg'
+Fri Sep 22 11:13:59 CEST 2017:	Read Parameter 'HomeAddress' from config. Value is 'Bahnhofstraﬂe 8, Breuberg'
+Fri Sep 22 11:13:59 CEST 2017:	Read config:Done
+Fri Sep 22 11:13:59 CEST 2017:	Initialize GUI
+Fri Sep 22 11:13:59 CEST 2017:	Initialize GUI: Done
+Fri Sep 22 11:13:59 CEST 2017:	Reset GUI
+Fri Sep 22 11:13:59 CEST 2017:	Clear truck list
+Fri Sep 22 11:13:59 CEST 2017:	Clear truck list: Done
+Fri Sep 22 11:13:59 CEST 2017:	Reset GUI: Done
+Fri Sep 22 11:13:59 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:04 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:09 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:09 CEST 2017:	Build AAOs
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'Fire_Home.aao'
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'Fire_Home.aao': Done
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'Fire_Away.aao'
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'Fire_Away.aao': Done
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'TH_Home.aao'
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'TH_Home.aao': Done
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'TH_Away.aao'
+Fri Sep 22 11:14:09 CEST 2017:	Read AAO from File 'TH_Away.aao': Done
+Fri Sep 22 11:14:09 CEST 2017:	Build AAOs: Done
+Fri Sep 22 11:14:09 CEST 2017:	Parse Alarmmail
+Fri Sep 22 11:14:09 CEST 2017:	Parse Alarmmail: Done
+Fri Sep 22 11:14:09 CEST 2017:	Get Alarm: Done, found Alarmmail
+Fri Sep 22 11:14:09 CEST 2017:	Show alarm
+Fri Sep 22 11:14:09 CEST 2017:	Reset GUI
+Fri Sep 22 11:14:09 CEST 2017:	Clear truck list
+Fri Sep 22 11:14:09 CEST 2017:	Clear truck list: Done
+Fri Sep 22 11:14:09 CEST 2017:	Reset GUI: Done
+Fri Sep 22 11:14:09 CEST 2017:	Check AAO
+Fri Sep 22 11:14:09 CEST 2017:	Check AAO: Chose AAO: ThAway
+Fri Sep 22 11:14:09 CEST 2017:	Adding truck 'TSF-W' to alarm
+Fri Sep 22 11:14:09 CEST 2017:	Adding truck 'TSF-W' to alarm: Done
+Fri Sep 22 11:14:09 CEST 2017:	Check AAO: Added Truck: TSF-W
+Fri Sep 22 11:14:09 CEST 2017:	Adding truck 'GW-N' to alarm
+Fri Sep 22 11:14:09 CEST 2017:	Adding truck 'GW-N' to alarm: Done
+Fri Sep 22 11:14:09 CEST 2017:	Check AAO: Added Truck: GW-N
+Fri Sep 22 11:14:09 CEST 2017:	Adding truck 'ELW' to alarm
+Fri Sep 22 11:14:09 CEST 2017:	Adding truck 'ELW' to alarm: Done
+Fri Sep 22 11:14:09 CEST 2017:	Check AAO: Added Truck: ELW
+Fri Sep 22 11:14:09 CEST 2017:	Check AAO: Done 
+Fri Sep 22 11:14:09 CEST 2017:	Wake on GUI
+Fri Sep 22 11:14:09 CEST 2017:	Done
+Fri Sep 22 11:14:10 CEST 2017:	Show alarm: Done
+Fri Sep 22 11:14:15 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:20 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:25 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:25 CEST 2017:	Build AAOs
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'Fire_Home.aao'
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'Fire_Home.aao': Done
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'Fire_Away.aao'
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'Fire_Away.aao': Done
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'TH_Home.aao'
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'TH_Home.aao': Done
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'TH_Away.aao'
+Fri Sep 22 11:14:25 CEST 2017:	Read AAO from File 'TH_Away.aao': Done
+Fri Sep 22 11:14:25 CEST 2017:	Build AAOs: Done
+Fri Sep 22 11:14:25 CEST 2017:	Parse Alarmmail
+Fri Sep 22 11:14:25 CEST 2017:	Parse Alarmmail: Done
+Fri Sep 22 11:14:25 CEST 2017:	Get Alarm: Done, found Alarmmail
+Fri Sep 22 11:14:25 CEST 2017:	Show alarm
+Fri Sep 22 11:14:25 CEST 2017:	Reset GUI
+Fri Sep 22 11:14:25 CEST 2017:	Clear truck list
+Fri Sep 22 11:14:25 CEST 2017:	Clear truck list: Done
+Fri Sep 22 11:14:25 CEST 2017:	Reset GUI: Done
+Fri Sep 22 11:14:25 CEST 2017:	Check AAO
+Fri Sep 22 11:14:25 CEST 2017:	Check AAO: Chose AAO: FireAway
+Fri Sep 22 11:14:25 CEST 2017:	Adding truck 'LF 8/6' to alarm
+Fri Sep 22 11:14:25 CEST 2017:	Adding truck 'LF 8/6' to alarm: Done
+Fri Sep 22 11:14:25 CEST 2017:	Check AAO: Added Truck: LF 8/6
+Fri Sep 22 11:14:25 CEST 2017:	Adding truck 'TLF 16/25' to alarm
+Fri Sep 22 11:14:25 CEST 2017:	Adding truck 'TLF 16/25' to alarm: Done
+Fri Sep 22 11:14:25 CEST 2017:	Check AAO: Added Truck: TLF 16/25
+Fri Sep 22 11:14:25 CEST 2017:	Adding truck 'ELW' to alarm
+Fri Sep 22 11:14:Fri Sep 22 11:14:30 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:35 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:40 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:45 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:50 CEST 2017:	Get Alarm
+Fri Sep 22 11:14:55 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:00 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:05 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:10 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:15 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:20 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:25 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:30 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:35 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:40 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:45 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:50 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:55 CEST 2017:	Get Alarm
+CEST 2017:	Get Alarm
+Fri Sep 22 11:15:05 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:10 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:15 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:20 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:25 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:30 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:35 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:40 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:45 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:50 CEST 2017:	Get Alarm
+Fri Sep 22 11:15:55 CEST 2017:	Get Alarm

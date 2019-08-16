@@ -1,0 +1,18 @@
+Alarmdruck 1160047686 / Technische Hilfeleistung
+Einsatzanlass
+Meldebild 091 - Feuerwehreinsatz
+Bemerkung Absperrung der Straße B 426 ab Abfahrt Wald Amorbach
+Stichwort F 2 Mittlerer Brand
+Meldender - / -
+Einsatzort
+Ort Breuberg [64747]
+Ortsteil Wald-Amorbach
+Straße B 426 - Hainstadt > Landesgrenze
+EM (Stärke/AGT) zugeteilt alarmiert Wache ab EOrt an EOrt ab ZOrt an ZOrt ab Ende
+01_FW-HAIN 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-3-42 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-1-22 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-4-19 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+Eskalationsstufe
+gedruckt am 7.Dezember 2016 19:18
+-1-
