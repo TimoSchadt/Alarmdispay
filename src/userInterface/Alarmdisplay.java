@@ -1,10 +1,8 @@
 package userInterface;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -13,11 +11,6 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.sound.sampled.DataLine;
 import javax.swing.*;
 
 import org.jdesktop.swingx.JXMapKit;
@@ -32,8 +25,6 @@ import alarmdroid.Alarmdroid;
 
 import javax.swing.border.LineBorder;
 
-import java.applet.Applet;
-import java.applet.AudioClip;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -131,7 +122,7 @@ public class Alarmdisplay extends JFrame{
 			Date dActDate = new Date();
 			
 			// Ask the Alarmdroid if there is any alarm
-        	m_pAlarmGenerator = m_pAlarmDroid.getAlarm("Alarm.txt");
+        	m_pAlarmGenerator = m_pAlarmDroid.getAlarm();
         	
         	// if there is a alarm show it
     		if (m_pAlarmGenerator != null){
@@ -470,12 +461,6 @@ public class Alarmdisplay extends JFrame{
 			m_lblObjectInformation.setText(arAlarmGenerator.getZusatzinformationen());
 		}
 		
-		
-		// Add the truck labels			
-		for(int i = 0; i< m_lTruckLabels.size(); i++){
-			m_TrucksHorizontalBox.add(m_lTruckLabels.get(i));
-		}
-		
 		// set the label colors depending on the kind of alarm
 		if (arAlarmGenerator.isBrand()){
 			m_contentPane.setBackground(new Color(255, 60, 60));
@@ -484,8 +469,6 @@ public class Alarmdisplay extends JFrame{
 	    	m_lblObjectAddress.setBackground(new Color(255, 60, 60));
 	    	m_lblObjectInformation.setBackground(new Color(255, 60, 60));
 	    	m_lblObjectName.setBackground(new Color(255, 60, 60));
-	    	PlaySound("alarm_loeschzug.wav");
-
 		}else{
 			m_contentPane.setBackground(new Color(0, 180, 255));
 	    	m_lblAlarmKeyword.setBackground(new Color(0, 180, 255));
@@ -493,12 +476,13 @@ public class Alarmdisplay extends JFrame{
 	    	m_lblObjectAddress.setBackground(new Color(0, 180, 255));
 	    	m_lblObjectInformation.setBackground(new Color(0, 180, 255));
 	    	m_lblObjectName.setBackground(new Color(0, 180, 255));
-	    	PlaySound("alarm_ruestzug.wav");
 
 		}
 		
-
-		
+		// Add the truck labels			
+		for(int i = 0; i< m_lTruckLabels.size(); i++){
+			m_TrucksHorizontalBox.add(m_lTruckLabels.get(i));
+		}
 		
 		// If there is a printer defined send hin the command
 		if(!m_sPrintername.contains("NONE")){
@@ -602,26 +586,6 @@ public class Alarmdisplay extends JFrame{
 	
 	public EventLogger getEventLogger(){
 		return m_pEventLogger;
-	}
-	
-	private void PlaySound(String strFileName) {
-		try {
-		    File yourFile = new File(strFileName);
-		    AudioInputStream stream;
-		    AudioFormat format;
-		    DataLine.Info info;
-		    Clip clip;
-
-		    stream = AudioSystem.getAudioInputStream(yourFile);
-		    format = stream.getFormat();
-		    info = new DataLine.Info(Clip.class, format);
-		    clip = (Clip) AudioSystem.getLine(info);
-		    clip.open(stream);
-		    clip.start();
-		}
-		catch (Exception e) {
-		    //whatevers
-		}
 	}
 			    
 }

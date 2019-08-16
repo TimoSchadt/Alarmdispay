@@ -262,8 +262,8 @@ public class Alarm_Generator {
 		String strMelderNrLabel		= "Melder-Nr. ";
 		String strOrtLabel 			= "Ort ";
 		String strOrtsteilLabel		= "Ortsteil ";
-		String strStreetLabel		= "Straï¿½e ";
-		String strEMLabel			= "EM (Stï¿½rke/AGT)";
+		String strStreetLabel		= "Straße ";
+		String strEMLabel			= "EM (Stärke/AGT)";
 		String strZeitLabel			= "gedruckt am ";
 		String strEOF				= "-1-";
 		
@@ -313,7 +313,7 @@ public class Alarm_Generator {
 		m_strAlarmstichwort = m_strHeader.substring(iStichwortLabel, iMeldenderLabel).replace(strStichwortLabel, "");
 		m_strAlarmstichwort = m_strAlarmstichwort.trim();
 		
-		if (m_strAlarmstichwort.startsWith("F")){
+		if (m_strAlarmstichwort.contains("F ")){
 			m_bBrand = true;
 		}else{
 			m_bBrand = false;
