@@ -262,8 +262,8 @@ public class Alarm_Generator {
 		String strMelderNrLabel		= "Melder-Nr. ";
 		String strOrtLabel 			= "Ort ";
 		String strOrtsteilLabel		= "Ortsteil ";
-		String strStreetLabel		= "Stra√üe ";
-		String strEMLabel			= "EM (St√§rke/AGT)";
+		String strStreetLabel		= "Straﬂe ";
+		String strEMLabel			= "EM (St‰rke/AGT)";
 		String strZeitLabel			= "gedruckt am ";
 		String strEOF				= "-1-";
 		

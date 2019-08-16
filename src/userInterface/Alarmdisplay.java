@@ -68,7 +68,7 @@ public class Alarmdisplay extends JFrame{
     private String m_strSenders="";
     private String m_strHomeAdress;
     private String m_strHomeName;
-    private int m_intScreenNumber;
+    private static int m_intScreenNumber;
     
     
     private Date m_dLastAlert; 
@@ -110,11 +110,13 @@ public class Alarmdisplay extends JFrame{
 	    if( screen > -1 && screen < gs.length )
 	    {
 	        gs[screen].setFullScreenWindow( frame );
+
 	       
 	    }
 	    else if( gs.length > 0 )
 	    {
 	        gs[0].setFullScreenWindow( frame );
+	        
 	    }
 	    else
 	    {
@@ -125,43 +127,50 @@ public class Alarmdisplay extends JFrame{
     public static void main(String[] args) {
     	
     	Alarmdisplay frame = new Alarmdisplay();
+        
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
          frame.setAlwaysOnTop(true);
          frame.toFront();
          //frame.setVisible(true);
+         
+         frame.toFront();
+
+         //showOnScreen(m_intScreenNumber,frame);
          JDialog modal=new JDialog(frame, "Alarmierung Tag der BF", true);
+         modal.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+         modal.setAlwaysOnTop(true);
          modal.toFront();
          modal.setAlwaysOnTop(true);
-         modal.setModalityType(ModalityType.APPLICATION_MODAL);
-        
+         //modal.setModalityType(ModalityType.APPLICATION_MODAL);
+         Thread t=new Thread() {
+        	 public void run() {
+        		 
+        		   frame.infityLoop();
+        	 }
+         };
+         t.start();
          modal.setVisible(true);
 
-         frame.infityLoop();
+         
+      
          
     }
     
     public void infityLoop(){
-    	
-	    
-	    m_pEventLogger = new EventLogger("Alarmdisplay.log");
-	    m_pEventLogger.logEvent("EventLog started");
-	    // Read the config from .cfg file
-	    readConfig();
 	    
 	    // Initalize the Alarmdroid 
 	    m_pAlarmDroid = new  Alarmdroid(this,m_sMailadress, m_sPassword, m_strSenders);
 	    
-	    // Draw the GUI
-	    initGUI();
+
+	    
+	    // If wanted set the screen to black
+		//if(m_bDarkenScreen){
+		//	setBlack();
+		//}
 	    
 	    // Reset the GUI
 	    reset();
-	    
-	    // If wanted set the screen to black
-		if(m_bDarkenScreen){
-			setBlack();
-		}
 		
 		
  		// Enter the inf loop
@@ -197,6 +206,16 @@ public class Alarmdisplay extends JFrame{
 	public Alarmdisplay(){
 		// Call base constructor
 	    super("Alarmdisplay");
+	    m_pEventLogger = new EventLogger("Alarmdisplay.log");
+	    m_pEventLogger.logEvent("EventLog started");
+	    // Read the config from .cfg file
+	    readConfig();
+	    
+	    // Draw the GUI
+	    initGUI();
+	    
+
+
 
  		
 	    
