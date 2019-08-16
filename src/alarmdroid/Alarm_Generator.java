@@ -313,7 +313,7 @@ public class Alarm_Generator {
 		m_strAlarmstichwort = m_strHeader.substring(iStichwortLabel, iMeldenderLabel).replace(strStichwortLabel, "");
 		m_strAlarmstichwort = m_strAlarmstichwort.trim();
 		
-		if (m_strAlarmstichwort.contains("F ")){
+		if (m_strAlarmstichwort.startsWith("F")){
 			m_bBrand = true;
 		}else{
 			m_bBrand = false;

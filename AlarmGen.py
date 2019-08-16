@@ -23,7 +23,7 @@ while True:
                 Fahrzeuge=["BREU-1-64", "BREU-2-48", "BREU-2-19"]
             else:
                 if Zug == "B":
-                    Fahrzeuge=["BREU-1-64", "BREU-2-48", "BREU-2-19", "BREU-3-42", "BREU-4-19", "BREU-1-22"]
+                    Fahrzeuge=["BREU-1-64", "BREU-2-48", "BREU-3-42", "BREU-4-19", "BREU-1-22"]
                 else:
                     print ("Ungültiger Zug\n")
                     valid = False

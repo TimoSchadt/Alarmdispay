@@ -1,9 +1,11 @@
 package alarmdroid;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -142,6 +144,50 @@ public Alarm_Generator getAlarm(){
 
 	}
 	gMail.closeConnection();
+	
+	m_pDisplay.getEventLogger().logEvent("Get Alarm: Done, found Alarmmail");
+
+	return generator;	
+	}
+
+public Alarm_Generator getAlarm(String FN){
+	
+	m_pDisplay.getEventLogger().logEvent("Get Alarm");
+	
+	if (!(new File(FN).exists())) {
+		return null;
+	}
+	
+	Alarm_Generator generator = null;
+	try {
+		BufferedReader br = new BufferedReader(new FileReader(FN));
+	    StringBuilder sb = new StringBuilder();
+	    String line = br.readLine();
+
+	    while (line != null) {
+	        sb.append(line);
+	        sb.append(System.lineSeparator());
+	        line = br.readLine();
+	    }
+		generator = new Alarm_Generator(m_pDisplay);	
+		generator.setInputString(sb.toString());
+		generator.setFileName(FN);
+		if(!generator.parse()){
+			m_pDisplay.getEventLogger().logEvent("Get Alarm: Done, failed parsing Alarmmail");
+			generator = null;
+		};
+	    br.close();
+	    new File(FN).delete();
+	
+
+	} catch (FileNotFoundException e) {
+		m_pDisplay.getEventLogger().logEvent(e.getMessage());
+		 generator = null;
+	} catch (IOException e) {
+		m_pDisplay.getEventLogger().logEvent(e.getMessage());
+		generator = null;
+
+	}
 	
 	m_pDisplay.getEventLogger().logEvent("Get Alarm: Done, found Alarmmail");
 

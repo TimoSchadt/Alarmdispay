@@ -1,6 +1,4 @@
--1-
 Alarmdruck 1160047686 / Technische Hilfeleistung
-gedruckt am 7.Dezember 2016 19:18
 Einsatzanlass
 Meldebild 091 - Feuerwehreinsatz
 Bemerkung Absperrung der Straße B 426 ab Abfahrt Wald Amorbach
@@ -13,8 +11,11 @@ Straße B 426 - Hainstadt > Landesgrenze
 EM (Stärke/AGT) zugeteilt alarmiert Wache ab EOrt an EOrt ab ZOrt an ZOrt ab Ende
 01_FW-HAIN 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
 BREU-2-00 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
+BREU-1-64 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
 BREU-2-11 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
 BREU-2-21 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
 BREU-2-48 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
 BREU-2-19 19:17:46 19:18:22 --:--:-- --:--:-- --:--:-- --:--:-- --:--:-- --:--:--
 Eskalationsstufe
+gedruckt am 7.Dezember 2016 19:18
+-1-
