@@ -68,6 +68,8 @@ public class Alarmdisplay extends JFrame{
     private String m_strSenders="";
     private String m_strHomeAdress;
     private String m_strHomeName;
+    private int m_intScreenNumber;
+    
     
     private Date m_dLastAlert; 
     
@@ -126,16 +128,21 @@ public class Alarmdisplay extends JFrame{
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
          frame.setAlwaysOnTop(true);
+         frame.toFront();
          //frame.setVisible(true);
          JDialog modal=new JDialog(frame, "Alarmierung Tag der BF", true);
-         modal.setVisible(true);
+         modal.toFront();
          modal.setAlwaysOnTop(true);
          modal.setModalityType(ModalityType.APPLICATION_MODAL);
+        
+         modal.setVisible(true);
+
+         frame.infityLoop();
+         
     }
     
-	public Alarmdisplay(){
-		// Call base constructor
-	    super("Alarmdisplay");
+    public void infityLoop(){
+    	
 	    
 	    m_pEventLogger = new EventLogger("Alarmdisplay.log");
 	    m_pEventLogger.logEvent("EventLog started");
@@ -158,7 +165,8 @@ public class Alarmdisplay extends JFrame{
 		
 		
  		// Enter the inf loop
- 		while(true){
+        
+        while(true){
  			// Get actual date and time
 			Date dActDate = new Date();
 			
@@ -184,6 +192,13 @@ public class Alarmdisplay extends JFrame{
 				m_pEventLogger.logEvent(e.getMessage());
 			}
     	}
+    }
+    
+	public Alarmdisplay(){
+		// Call base constructor
+	    super("Alarmdisplay");
+
+ 		
 	    
 	}
 
@@ -212,7 +227,7 @@ public class Alarmdisplay extends JFrame{
 		  setUndecorated(true);
 	      setBounds(0,0,getToolkit().getScreenSize().width,getToolkit().getScreenSize().height);
 	      setVisible(true);
-	      showOnScreen(1,this);
+	      showOnScreen(m_intScreenNumber,this);
 	      m_bIsFullScreen = true;
       }else{
             setVisible(true);
@@ -220,7 +235,7 @@ public class Alarmdisplay extends JFrame{
             dispose();
             setUndecorated(false);
 			setVisible(true);
-			showOnScreen(1,this);
+			showOnScreen(m_intScreenNumber,this);
             m_bIsFullScreen = false;
        }
 	  
@@ -622,6 +637,10 @@ public class Alarmdisplay extends JFrame{
 				if(actLine.contains("HomeAddress")){
 					m_strHomeAdress = actLine.substring(actLine.indexOf('=')+1, actLine.indexOf(';')).trim();
 				    m_pEventLogger.logEvent("Read Parameter 'HomeAddress' from config. Value is '" + m_strHomeAdress + "'");
+				}
+				if(actLine.contains("ScreenNumber")){
+					m_intScreenNumber = Integer.parseInt(actLine.substring(actLine.indexOf('=')+1, actLine.indexOf(';')).trim());
+				    m_pEventLogger.logEvent("Read Parameter 'ScreenNumber' from config. Value is '" + m_intScreenNumber + "'");
 				}
 								
 				actLine = br.readLine();	

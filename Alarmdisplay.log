@@ -1,50 +1,18 @@
-Sat Sep 23 02:04:59 CEST 2017:	EventLog started
-Sat Sep 23 02:04:59 CEST 2017:	Read config
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'DarkenScreen' from config. Value is '0'
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'ResetTime' from config. Value is '10'
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Mailadress' from config. Value is 'timoschadt@googlemail.com'
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Password' from config. Value is 'PASSWORD'
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Printername' from config. Value is 'NONE'
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Senders' from config. Value is 'timoschadt@googlemail.com, leitstelle@odenwaldkreis.de'
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'HomeName' from config. Value is 'Jugendfeuerwehr Breuberg'
-Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'HomeAddress' from config. Value is 'Bahnhofstraﬂe 8, Breuberg'
-Sat Sep 23 02:04:59 CEST 2017:	Read config:Done
-Sat Sep 23 02:04:59 CEST 2017:	Initialize GUI
-Sat Sep 23 02:04:59 CEST 2017:	Initialize GUI: Done
-Sat Sep 23 02:04:59 CEST 2017:	Reset GUI
-Sat Sep 23 02:04:59 CEST 2017:	Clear truck list
-Sat Sep 23 02:04:59 CEST 2017:	Clear truck list: Done
-Sat Sep 23 02:04:59 CEST 2017:	Reset GUI: Done
-Sat Sep 23 02:04:59 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:04 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:09 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:14 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:19 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:24 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:29 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:34 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:39 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:44 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:49 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:54 CEST 2017:	Get Alarm
-Sat Sep 23 02:05:59 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:04 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:09 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:14 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:19 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:24 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:29 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:34 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:39 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:44 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:49 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:54 CEST 2017:	Get Alarm
-Sat Sep 23 02:06:59 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:04 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:09 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:14 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:19 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:24 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:29 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:34 CEST 2017:	Get Alarm
-Sat Sep 23 02:07:39 CEST 2017:	Get Alarm
+Sat Sep 23 01:41:33 CEST 2017:	EventLog started
+Sat Sep 23 01:41:33 CEST 2017:	Read config
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'DarkenScreen' from config. Value is '0'
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'ResetTime' from config. Value is '10'
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'Mailadress' from config. Value is 'timoschadt@googlemail.com'
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'Password' from config. Value is 'PASSWORD'
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'Printername' from config. Value is 'NONE'
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'Senders' from config. Value is 'timoschadt@googlemail.com, leitstelle@odenwaldkreis.de'
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'HomeName' from config. Value is 'Jugendfeuerwehr Breuberg'
+Sat Sep 23 01:41:33 CEST 2017:	Read Parameter 'HomeAddress' from config. Value is 'Bahnhofstraﬂe 8, Breuberg'
+Sat Sep 23 01:41:33 CEST 2017:	Read config:Done
+Sat Sep 23 01:41:33 CEST 2017:	Initialize GUI
+Sat Sep 23 01:41:33 CEST 2017:	Initialize GUI: Done
+Sat Sep 23 01:41:33 CEST 2017:	Reset GUI
+Sat Sep 23 01:41:34 CEST 2017:	Clear truck list
+Sat Sep 23 01:41:34 CEST 2017:	Clear truck list: Done
+Sat Sep 23 01:41:34 CEST 2017:	Reset GUI: Done
+Sat Sep 23 01:41:34 CEST 2017:	Get Alarm
