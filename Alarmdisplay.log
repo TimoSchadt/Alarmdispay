@@ -1,64 +1,50 @@
-Sat Sep 23 01:44:44 CEST 2017:	EventLog started
-Sat Sep 23 01:44:44 CEST 2017:	Read config
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'DarkenScreen' from config. Value is '0'
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'ResetTime' from config. Value is '10'
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'Mailadress' from config. Value is 'timoschadt@googlemail.com'
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'Password' from config. Value is 'PASSWORD'
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'Printername' from config. Value is 'NONE'
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'Senders' from config. Value is 'timoschadt@googlemail.com, leitstelle@odenwaldkreis.de'
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'HomeName' from config. Value is 'Jugendfeuerwehr Breuberg'
-Sat Sep 23 01:44:44 CEST 2017:	Read Parameter 'HomeAddress' from config. Value is 'Bahnhofstraﬂe 8, Breuberg'
-Sat Sep 23 01:44:44 CEST 2017:	Read config:Done
-Sat Sep 23 01:44:44 CEST 2017:	Initialize GUI
-Sat Sep 23 01:44:44 CEST 2017:	Initialize GUI: Done
-Sat Sep 23 01:44:44 CEST 2017:	Reset GUI
-Sat Sep 23 01:44:44 CEST 2017:	Clear truck list
-Sat Sep 23 01:44:44 CEST 2017:	Clear truck list: Done
-Sat Sep 23 01:44:44 CEST 2017:	Reset GUI: Done
-Sat Sep 23 01:44:44 CEST 2017:	Get Alarm
-Sat Sep 23 01:44:49 CEST 2017:	Get Alarm
-Sat Sep 23 01:44:54 CEST 2017:	Get Alarm
-Sat Sep 23 01:44:59 CEST 2017:	Get Alarm
-Sat Sep 23 01:45:04 CEST 2017:	Get Alarm
-Sat Sep 23 01:45:04 CEST 2017:	Build AAOs
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'Fire_Home.aao'
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'Fire_Home.aao': Done
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'Fire_Away.aao'
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'Fire_Away.aao': Done
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'TH_Home.aao'
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'TH_Home.aao': Done
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'TH_Away.aao'
-Sat Sep 23 01:45:04 CEST 2017:	Read AAO from File 'TH_Away.aao': Done
-Sat Sep 23 01:45:04 CEST 2017:	Build AAOs: Done
-Sat Sep 23 01:45:04 CEST 2017:	Parse Alarmmail
-Sat Sep 23 01:45:04 CEST 2017:	Parse Alarmmail: Done
-Sat Sep 23 01:45:04 CEST 2017:	Get Alarm: Done, found Alarmmail
-Sat Sep 23 01:45:04 CEST 2017:	Show alarm
-Sat Sep 23 01:45:04 CEST 2017:	Reset GUI
-Sat Sep 23 01:45:04 CEST 2017:	Clear truck list
-Sat Sep 23 01:45:04 CEST 2017:	Clear truck list: Done
-Sat Sep 23 01:45:04 CEST 2017:	Reset GUI: Done
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO: Chose AAO: ThAway
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'TSF-W' to alarm
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'TSF-W' to alarm: Done
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO: Added Truck: TSF-W
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'GW-N' to alarm
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'GW-N' to alarm: Done
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO: Added Truck: GW-N
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'LF' to alarm
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'LF' to alarm: Done
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO: Added Truck: LF
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'TLF' to alarm
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'TLF' to alarm: Done
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO: Added Truck: TLF
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'ELW' to alarm
-Sat Sep 23 01:45:04 CEST 2017:	Adding truck 'ELW' to alarm: Done
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO: Added Truck: ELW
-Sat Sep 23 01:45:04 CEST 2017:	Check AAO: Done 
-Sat Sep 23 01:45:04 CEST 2017:	Wake on GUI
-Sat Sep 23 01:45:04 CEST 2017:	Done
-Sat Sep 23 01:45:05 CEST 2017:	Show alarm: Done
-Sat Sep 23 01:45:10 CEST 2017:	Get Alarm
-Sat Sep 23 01:45:15 CEST 2017:	Get Alarm
-Sat Sep 23 01:45:20 CEST 2017:	Get Alarm
+Sat Sep 23 02:04:59 CEST 2017:	EventLog started
+Sat Sep 23 02:04:59 CEST 2017:	Read config
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'DarkenScreen' from config. Value is '0'
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'ResetTime' from config. Value is '10'
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Mailadress' from config. Value is 'timoschadt@googlemail.com'
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Password' from config. Value is 'PASSWORD'
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Printername' from config. Value is 'NONE'
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'Senders' from config. Value is 'timoschadt@googlemail.com, leitstelle@odenwaldkreis.de'
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'HomeName' from config. Value is 'Jugendfeuerwehr Breuberg'
+Sat Sep 23 02:04:59 CEST 2017:	Read Parameter 'HomeAddress' from config. Value is 'Bahnhofstraﬂe 8, Breuberg'
+Sat Sep 23 02:04:59 CEST 2017:	Read config:Done
+Sat Sep 23 02:04:59 CEST 2017:	Initialize GUI
+Sat Sep 23 02:04:59 CEST 2017:	Initialize GUI: Done
+Sat Sep 23 02:04:59 CEST 2017:	Reset GUI
+Sat Sep 23 02:04:59 CEST 2017:	Clear truck list
+Sat Sep 23 02:04:59 CEST 2017:	Clear truck list: Done
+Sat Sep 23 02:04:59 CEST 2017:	Reset GUI: Done
+Sat Sep 23 02:04:59 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:04 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:09 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:14 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:19 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:24 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:29 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:34 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:39 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:44 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:49 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:54 CEST 2017:	Get Alarm
+Sat Sep 23 02:05:59 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:04 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:09 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:14 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:19 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:24 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:29 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:34 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:39 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:44 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:49 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:54 CEST 2017:	Get Alarm
+Sat Sep 23 02:06:59 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:04 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:09 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:14 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:19 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:24 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:29 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:34 CEST 2017:	Get Alarm
+Sat Sep 23 02:07:39 CEST 2017:	Get Alarm

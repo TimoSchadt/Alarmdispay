@@ -26,6 +26,8 @@ import org.jdesktop.swingx.mapviewer.GeoPosition;
 import org.jdesktop.swingx.mapviewer.Waypoint;
 import org.jdesktop.swingx.mapviewer.WaypointPainter;
 
+import com.sun.glass.events.WindowEvent;
+
 import alarmdroid.AAO;
 import alarmdroid.Alarm_Generator;
 import alarmdroid.Alarmdroid;
@@ -38,11 +40,14 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Desktop;
+import java.awt.Dialog.ModalityType;
 import java.awt.Font;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowStateListener;
 
 
 public class Alarmdisplay extends JFrame{
@@ -103,6 +108,7 @@ public class Alarmdisplay extends JFrame{
 	    if( screen > -1 && screen < gs.length )
 	    {
 	        gs[screen].setFullScreenWindow( frame );
+	       
 	    }
 	    else if( gs.length > 0 )
 	    {
@@ -115,12 +121,16 @@ public class Alarmdisplay extends JFrame{
 	}
     
     public static void main(String[] args) {
-    	Alarmdisplay frame = new Alarmdisplay();
     	
+    	Alarmdisplay frame = new Alarmdisplay();
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-         frame.setVisible(true);
-         
+         frame.setAlwaysOnTop(true);
+         //frame.setVisible(true);
+         JDialog modal=new JDialog(frame, "Alarmierung Tag der BF", true);
+         modal.setVisible(true);
+         modal.setAlwaysOnTop(true);
+         modal.setModalityType(ModalityType.APPLICATION_MODAL);
     }
     
 	public Alarmdisplay(){
@@ -191,7 +201,7 @@ public class Alarmdisplay extends JFrame{
 	  m_contentPane.setBounds(0, 0, m_iResX, m_iResY);  
 	  setContentPane(m_contentPane);
       m_contentPane.setLayout(new BorderLayout(25, 25));
-      showOnScreen(2,this);
+
 	  // Ensure the Frame is FullScreen
 	  if(m_bIsFullScreen == false){	 
 	      m_iPrevX = getX();
@@ -202,6 +212,7 @@ public class Alarmdisplay extends JFrame{
 		  setUndecorated(true);
 	      setBounds(0,0,getToolkit().getScreenSize().width,getToolkit().getScreenSize().height);
 	      setVisible(true);
+	      showOnScreen(1,this);
 	      m_bIsFullScreen = true;
       }else{
             setVisible(true);
@@ -209,6 +220,7 @@ public class Alarmdisplay extends JFrame{
             dispose();
             setUndecorated(false);
 			setVisible(true);
+			showOnScreen(1,this);
             m_bIsFullScreen = false;
        }
 	  
